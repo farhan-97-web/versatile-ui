@@ -1,0 +1,107 @@
+body {
+    font-family: "Inter", sans-serif;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.951);
+}
+
+ul>li {
+    list-style: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 576px) {
+    .navlink {
+        display: none;
+    }
+
+    .navbar-mb {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .bar {
+        color: rgb(255, 255, 255);
+    }
+
+    .logo-mb {
+        color: rgb(230, 83, 60);
+        font-family: Inter;
+        font-size: 28px;
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    /* banner */
+    .heading-mb {
+        color: rgb(255, 255, 255);
+        font-size: 36px;
+        font-weight: 900;
+        padding-bottom: 1rem;
+    }
+
+    .description-mb {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        padding-bottom: 1rem;
+    }
+
+    .primary-btn-mb {
+        border-radius: 2rem;
+        background: rgb(230, 83, 60);
+        color: white;
+        width: 50%;
+        padding: 1rem 2rem 1rem 2rem;
+        border: none;
+    }
+    .secondary-btn-mb{
+        border-radius: 2rem;
+        background: rgba(230, 83, 60, 0);
+        color: white;
+        width: 50%;
+        padding: 1rem 2rem 1rem 2rem;
+        border: 1px solid rgb(255, 255, 255);
+    }
+    .banner-btn-mb{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .navbar-lg {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .bar {
+        display: none;
+    }
+
+    .navlink>ul {
+        display: flex;
+        gap: 20px;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .logo-lg {
+        color: rgb(230, 83, 60);
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 800;
+        font-style: italic;
+    }
+}
