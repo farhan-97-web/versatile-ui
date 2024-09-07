@@ -22,8 +22,7 @@ ul>li {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+        padding: 1rem 1rem;
     }
 
     .bar {
@@ -41,17 +40,19 @@ ul>li {
     /* banner */
     .heading-mb {
         color: rgb(255, 255, 255);
-        font-size: 36px;
+        font-size: 2rem;
         font-weight: 900;
         padding-bottom: 1rem;
+        width: 75%;
     }
 
     .description-mb {
         color: rgba(255, 255, 255, 0.5);
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.8rem;
         padding-bottom: 1rem;
+        width: 75%;
     }
 
     .primary-btn-mb {
@@ -62,7 +63,8 @@ ul>li {
         padding: 1rem 2rem 1rem 2rem;
         border: none;
     }
-    .secondary-btn-mb{
+
+    .secondary-btn-mb {
         border-radius: 2rem;
         background: rgba(230, 83, 60, 0);
         color: white;
@@ -70,19 +72,106 @@ ul>li {
         padding: 1rem 2rem 1rem 2rem;
         border: 1px solid rgb(255, 255, 255);
     }
-    .banner-btn-mb{
+
+    .banner-btn-mb {
         display: flex;
         flex-direction: row;
         gap: 1rem;
 
     }
+
+    .cursive-mb {
+        font-family: "Dancing Script", cursive;
+    }
+
+    .img-div-mb {
+        height: 35rem;
+        background-image: url('images/images2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        position: relative;
+    }
+
+    .top-mb {
+        box-sizing: border-box;
+        border: 0.76px solid rgba(255, 255, 255, 0.1);
+        border-radius: 0.5rem;
+        background: rgba(255, 255, 255, 0.1);
+        height: 4rem;
+        width: 9rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 1rem;
+        position: absolute;
+        top: 5rem;
+        right:0.5rem;
+    }
+    .bottom-mb{
+        box-sizing: border-box;
+        border: 0.76px solid rgba(255, 255, 255, 0.1);
+        border-radius: 0.5rem;
+        background: rgba(255, 255, 255, 0.1);
+        height: 4rem;
+        width: 9rem;
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        position: absolute;
+        bottom: 15rem;
+        left: 0.5rem;
+        
+    }
+    .ply-btn{
+        font-size: 1.8rem;
+        color: #E6533C;
+        background-color: white;
+        border-radius: 100%;
+    }
+
+    .top-mb-heading {
+        color: rgb(255, 255, 255);
+        font-size: 1.8rem;
+        font-weight: 900;
+    }
+
+    .top-mb-description {
+        font-size: 0.7rem;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.65);
+    }
+    .banner-mb{
+        padding: 0.5rem 1rem;
+    }
+    .section-heading-mb{
+        font-size: 1.8rem;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+
+    }
+    .section-description-mb{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+        padding-bottom: 1rem;
+    }
+    .centered-content-mb{
+        text-align: center;
+    }
+    .circle{
+        border-radius: 100%;
+    }
 }
 
 @media screen and (min-width: 1200px) {
+
     .navbar-lg {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 1rem 10rem;
     }
 
     .bar {
@@ -104,4 +193,132 @@ ul>li {
         font-weight: 800;
         font-style: italic;
     }
+    .heading-lg {
+        color: rgb(255, 255, 255);
+        font-size: 4.7rem;
+        font-weight: 900;
+        padding-bottom: 1rem;
+        width: 75%;
+    }
+    .description-lg {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+        padding-bottom: 1rem;
+        width: 75%;
+    }
+    .primary-btn-lg {
+        border-radius: 2rem;
+        background: rgb(230, 83, 60);
+        color: white;
+        width: 50%;
+        padding: 1rem 2rem 1rem 2rem;
+        border: none;
+        font-size: 1.2rem;
+    }
+
+    .secondary-btn-lg {
+        border-radius: 2rem;
+        background: rgba(230, 83, 60, 0);
+        color: white;
+        width: 50%;
+        padding: 1rem 2rem 1rem 2rem;
+        border: 1px solid rgb(255, 255, 255);
+        font-size: 1.2rem;
+    }
+    .banner-btn-lg {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-bottom: 4rem;
+
+    }
+    .cursive-mb {
+        font-family: "Dancing Script", cursive;
+    }
+
+    .img-div-lg{
+        height: auto;
+        width: 100%;
+        background-image: url('images/images2.png');
+        background-repeat: no-repeat;
+        position: relative;
+        background-position: center;
+        display: flex;
+
+    }
+    .top-lg {
+        box-sizing: border-box;
+        border: 0.76px solid rgba(255, 255, 255, 0.1);
+        border-radius: 0.5rem;
+        background: rgba(255, 255, 255, 0.1);
+        height: 4rem;
+        width: 9rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 1rem;
+        position: absolute;
+        top: 7.5rem;
+        right:5.5rem;
+    }
+    .bottom-lg{
+        box-sizing: border-box;
+        border: 0.76px solid rgba(255, 255, 255, 0.1);
+        border-radius: 0.5rem;
+        background: rgba(255, 255, 255, 0.1);
+        height: 4rem;
+        width: 9rem;
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        position: absolute;
+        bottom: 4rem;
+        left: 5rem;
+        
+    }
+    .ply-btn{
+        font-size: 1.8rem;
+        color: #E6533C;
+        background-color: white;
+        border-radius: 100%;
+    }
+
+    .top-mb-heading {
+        color: rgb(255, 255, 255);
+        font-size: 1.8rem;
+        font-weight: 900;
+    }
+
+    .top-mb-description {
+        font-size: 0.7rem;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.65);
+    }
+
+
+    .banner-lg{
+        display: flex;
+        padding: 1rem 10rem ;
+    }
+    .section-heading-lg{
+        font-size: 3rem;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+
+    }
+    .section-description-lg{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+        padding-bottom: 1rem;
+    }
+    .centered-content-lg{
+        text-align: center;
+    }
+    
+
+  
 }
