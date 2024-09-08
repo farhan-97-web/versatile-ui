@@ -163,6 +163,24 @@ ul>li {
     .circle{
         border-radius: 100%;
     }
+    .card{
+        text-align: center;
+        margin: 1rem 2rem;
+        
+    }
+    .cir-heading{
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        padding: 1rem 0;
+    }
+    .section-description-lg{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+        padding-bottom: 1rem;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -317,6 +335,25 @@ ul>li {
     }
     .centered-content-lg{
         text-align: center;
+    }
+    .circle{
+        border-radius: 100%;
+    }
+    .card{
+        text-align: center;
+        margin: 1rem 2rem;
+        
+    }
+    .circle-img-parent{
+        display: flex;
+        padding: 2rem 10rem;
+        
+    }
+    .cir-heading{
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        padding: 1rem 0;
     }
     
 
