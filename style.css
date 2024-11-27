@@ -26,7 +26,13 @@ ul>li {
     }
 
     .bar {
-        color: rgb(255, 255, 255);
+        display: block;
+        color: white;
+        
+    }
+    .wh{
+        color: white;
+       
     }
 
     .logo-mb {
@@ -198,7 +204,8 @@ ul>li {
         display: block;
         border-radius: 1.1rem;
     }
-    .run-primary-btn-mb{
+
+    .run-primary-btn-mb {
         border-radius: 2rem;
         background: rgb(230, 83, 60);
         color: white;
@@ -209,38 +216,108 @@ ul>li {
         font-weight: 600;
         margin-bottom: 2rem;
     }
-    .run-extra{
+
+    .run-extra {
         background-color: #222222;
         padding: 2rem;
         margin: 1rem 1rem;
         border-radius: 1.1rem;
     }
+
     table {
         width: 50%;
         margin: 20px auto;
         border-collapse: collapse;
         text-align: left;
-      }
-      th, td {
+    }
+
+    th,
+    td {
         border: 1px solid #ddd;
         padding: 8px;
         color: rgba(255, 255, 255, 0.5);
-      }
-      th {
+    }
+
+    th {
         background-color: rgba(255, 255, 255, 0.5);
-      }
-      .form{
+    }
+
+    .form {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 16px; 
+        gap: 16px;
         padding: 20px;
-      }
-      .col-span{
+    }
+
+    .col-span {
         grid-column: span 2;
-      }
-      .bmi-section{
+    }
+
+    .bmi-section {
         background-color: #222222;
-      }
+    }
+    .form-w-sm{
+        width: 100%;
+    }
+
+    .sq-img1 {
+        height: 17rem;
+        width: 20rem;
+        background-image: url('images/trainer1.png');
+        background-size: cover;
+        position: relative;
+    }
+    .sq-img2 {
+        height: 17rem;
+        width: 20rem;
+        background-image: url('images/trainer2.png');
+        background-size: cover;
+        position: relative;
+    }
+    .sq-img3 {
+        height: 17rem;
+        width: 20rem;
+        background-image: url('images/trainer3.png');
+        background-size: cover;
+        position: relative;
+    }
+    .sq-img4 {
+        height: 17rem;
+        width: 20rem;
+        background-image: url('images/trainer4.png');
+        background-size: cover;
+        position: relative;
+    }
+    .sq-img5 {
+        height: 17rem;
+        width: 20rem;
+        background-image: url('images/trainer5.png');
+        background-size: cover;
+        position: relative;
+    }
+    .sq-img6 {
+        height: 17rem;
+        width: 20rem;
+        background-image: url('images/trainer6.png');
+        background-size: cover;
+        position: relative;
+    }
+
+    .sq-img-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.2rem;
+        background-color: #222222;
+    }
+    .sq-img-content{
+        position: absolute;
+        top: 13rem;
+        color: white;
+    }
+   
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -430,13 +507,15 @@ ul>li {
         color: rgb(255, 255, 255);
         padding: 1rem 0;
     }
+
     .run-extra-img {
         max-width: 100%;
         height: auto;
         display: block;
         border-radius: 1.1rem;
     }
-    .run-primary-btn-mb{
+
+    .run-primary-btn-mb {
         border-radius: 2rem;
         background: rgb(230, 83, 60);
         color: white;
@@ -447,7 +526,8 @@ ul>li {
         font-weight: 600;
         margin-bottom: 2rem;
     }
-    .run-extra{
+
+    .run-extra {
         background-color: #222222;
         padding: 2rem;
         margin: 1rem 10rem;
@@ -457,13 +537,129 @@ ul>li {
         gap: 9rem;
         align-items: center;
     }
-    .run-img-div{
+
+    .run-img-div {
         width: 50%;
     }
-    .run-extra-content{
+
+    .run-extra-content {
         width: 70%;
     }
+    .center-a-div{
+        width:fit-content;
+        margin: 3rem auto;
+        
+    }
+    table {
+        width: 50%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        text-align: left;
+    }
 
+    th,
+    td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        color: rgba(255, 255, 255, 0.5);
+    }
 
+    th {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .flex-part{
+        display: flex;
+        justify-content: space-around;
+        background-color: #222222;
+    }
+    .form {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        padding: 20px;
+    }
+
+    .col-span {
+        grid-column: span 2;
+        height: 3rem;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 0.5rem;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .form-height-lg{
+        height: 3rem;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 0.5rem;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .sq-img1 {
+        height: 17rem;
+        width: 20rem;
+        background-image: url('images/trainer1.png');
+        background-size: cover;
+        position: relative;
+    }
+    .sq-img2 {
+        height: 17rem;
+        width: 20rem;
+        background-image: url('images/trainer2.png');
+        background-size: cover;
+        position: relative;
+    }
+    .sq-img3 {
+        height: 17rem;
+        width: 20rem;
+        background-image: url('images/trainer3.png');
+        background-size: cover;
+        position: relative;
+    }
+    .sq-img4 {
+        height: 17rem;
+        width: 20rem;
+        background-image: url('images/trainer4.png');
+        background-size: cover;
+        position: relative;
+    }
+    .sq-img5 {
+        height: 17rem;
+        width: 20rem;
+        background-image: url('images/trainer5.png');
+        background-size: cover;
+        position: relative;
+    }
+    .sq-img6 {
+        height: 17rem;
+        width: 20rem;
+        background-image: url('images/trainer6.png');
+        background-size: cover;
+        position: relative;
+    }
+    .sq-img-content{
+        position: absolute;
+        top: 13rem;
+        color: white;
+    }
+    .sq-img-cont {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: fit-content;
+        gap: 1rem;
+        margin: 2rem auto;
+        background-color: #222222;
+    }
+    .footer-lg{
+        display: flex;
+        justify-content: space-around;
+    }
+    ul{
+        align-items: center;
+    }
+    .mg{
+        margin: 2rem 4rem;
+    }
+    .center{
+        text-align: center;
+    }
 
 }
